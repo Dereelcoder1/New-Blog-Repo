@@ -1,0 +1,114 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+  }
+  
+  .dashboard {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  header {
+    text-align: center;
+    padding: 20px;
+    background-color: goldenrod;
+    color: white;
+  }
+  
+  h1 {
+    margin: 0;
+  }
+  
+  h2 {
+    color: goldenrod;
+  }
+  
+  .upload-section, .blog-preview {
+    margin-bottom: 40px;
+  }
+  
+  form {
+    background: white;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  form label {
+    display: block;
+    margin: 10px 0 5px;
+  }
+  
+  form input, form textarea, form button {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  form textarea {
+    height: 100px;
+    
+  }
+  
+  form button {
+    background-color: goldenrod;
+    color: white;
+    border: none;
+    cursor: pointer;
+  }
+  
+  form button:hover {
+    background-color: darkgoldenrod;
+  }
+  
+  .blog-preview {
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .blog-post {
+    border-bottom: 1px solid #ccc;
+    padding: 10px 0;
+  }
+  
+  .blog-post img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 5px;
+    margin-bottom: 10px;
+  }
+  
+  .blog-post h3 {
+    margin: 10px 0;
+  }
+  
+  .blog-post p {
+    margin: 0;
+    color: #555;
+  }
+  
+  .blog-post .actions {
+    margin-top: 10px;
+  }
+  
+  .blog-post .actions button {
+    background-color: goldenrod;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    margin-right: 5px;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .blog-post .actions button:hover {
+    background-color: darkgoldenrod;
+  }
+  
