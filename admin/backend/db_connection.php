@@ -1,8 +1,8 @@
 <?php
-$servername = "localhost";
-$username = "root"; // Default username
-$password = "";     // Default password
-$dbname = "blog_system"; // The database you created
+$servername = "if0_38012620_blog_system";
+$username = "if0_38012620"; // Default username
+$password = "2a2SAxYWtCji";     // Default password
+$dbname = "sql206.infinityfree.com"; // The database you created
 
 // Create connection
 $conn = new mysqli($servername, $username, $password, $dbname);

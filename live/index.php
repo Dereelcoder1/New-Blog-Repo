@@ -29,8 +29,8 @@
                     <li data-section="hero" class="remove-button"><a> Home</a></li>
                     <li data-section="resume" class="remove-button"><a> Resume</a></li>
                     <li data-section="testimonial" class="remove-button"><a> Testimonials</a></li>
-                    <li data-section="blog" class="remove-button"><a> Blog</a></li>
                     <li data-section="contact" class="remove-button"><a> Contact</a></li>
+                    <li data-section="blog" class="remove-button"><a> Blog</a></li>
                 </ul>
             </nav>
         </div>
@@ -244,7 +244,7 @@
               </div>
             </div>
           </section> -->
-        <h2 class="blog-title">Latest Blog Posts</h2>
+        <h2 class="blog-title" style="text-align: left; margin-bottom: 20px;">Latest Blog Posts</h2><br>
         <div class="blog-container" id="blogsContainer">
           <!-- <div class="blog-post">
             <img src="https://via.placeholder.com/600x400.png?text=Blog+Post+1" alt="Blog Post 1" class="blog-image">
@@ -274,7 +274,10 @@
 
     <!-- Contact Section -->
 
-    <div class="contact-cont section" id="contact">
+      
+            
+        </div>
+        <div class="contact-cont section" id="contact">
         <h1>Contact Us</h1>
         <div class="contact-wrapper">
           <form id="contact-form" class="contact-form">
@@ -312,9 +315,7 @@
           </div>
         </div>
       </div>
-      
-            
-        </div>
+    
     
      
     </main>
